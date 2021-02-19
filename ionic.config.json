@@ -1,5 +1,8 @@
 {
   "name": "remedial-moviles",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

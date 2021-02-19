@@ -1,0 +1,58 @@
+[
+  {
+    "nombre_producto": "Capturadora de video Full HD",
+    "descripción": "Alta definición: 1080P 60 fps – captura de vídeo – Soporta resolución máxima de entrada 3840 × 2160 @ 30 Hz, resolución máxima de salida 1920 × 1080 @ 30 Hz. Graba vídeos de alta definición de 60 fps directamente en el disco duro sin demora.",
+    "precio": 29.99,
+    "unidades": 16,
+    "nombre_imagen_producto": "capturadora-video.jpeg"
+  },
+  {
+    "nombre_producto": "Convertidor de HDMI a RCA",
+    "descripción": "Convierte la señal de vídeo HDMI a señal CVB (AV) normal (definición estándar 480i, 576i), disponible para TV de estilo antiguo con conectores RCA. ",
+    "precio": 16.0,
+    "unidades": 10,
+    "nombre_imagen_producto": "hdmi-rca.png"
+  },
+  {
+    "nombre_producto": "Tiras LED RGB Inteligentes Wifi + Controlador",
+    "descripción": "SKU: 1L004",
+    "precio": 40.0,
+    "unidades": 5,
+    "nombre_imagen_producto": "tiras-led.jpg"
+  },
+  {
+    "nombre_producto": "Google Chromecast (3ra Gen) - Reproductor Multimedia Tv",
+    "descripción": "Transmite desde su teléfono a la TV. Funciona con las aplicaciones de transmisión que conoces y amas. Comienza a transmitir solo con tu voz.",
+    "precio": 50.0,
+    "unidades": 14,
+    "nombre_imagen_producto": "chromecast.jpg"
+  },
+  {
+    "nombre_producto": "Kit 2 en 1 Marvo MH01BK",
+    "descripción": "Pack de audifonos + mouse de la marca marvo.",
+    "precio": 35.0,
+    "unidades": 3,
+    "nombre_imagen_producto": "pack-marvo.jpg"
+  },
+  {
+    "nombre_producto": "Imilab Xiaomi 1080p",
+    "descripción": "Cámara de Seguridad Wifi",
+    "precio": 55.0,
+    "unidades": 8,
+    "nombre_imagen_producto": "camara-xiaomi.png"
+  },
+  {
+    "nombre_producto": "GO RIDE EBIKE",
+    "descripción": "Bicicleta electronica de alta calidad de la marca go ride.",
+    "precio": "1099.99",
+    "unidades": "5",
+    "nombre_imagen_producto": "go-ride.png"
+  },
+  {
+    "nombre_producto": "Aro de Luz Vivitar 8'' Pulgadas con Base",
+    "descripción": "Anillo de luz LED de 8 pulgadas con soporte para teléfono con cuello de cisne",
+    "precio": 25.0,
+    "unidades": 16,
+    "nombre_imagen_producto": "aro-luz.png"
+  }
+]

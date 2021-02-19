@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/inicio">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>carrito</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row *ngFor="let item of carrito">
+      <ion-col size="3">{{item.prod.DESCRIPCION}}</ion-col>
+      <ion-col size="3">{{item.prod.STOCK}}</ion-col>
+      <ion-col size="3">{{item.prod.PRECIO_UNIDAD}}</ion-col>
+      <ion-col size="3">
+        $ {{item.prod.PRECIO_UNIDAD * item.prod.STOCK}}</ion-col
+      >
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="3">SubTotal</ion-col>
+      <ion-col size="3"></ion-col>
+      <ion-col size="3"></ion-col>
+      <ion-col size="3"> $ {{ subtotal}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="3">IVA</ion-col>
+      <ion-col size="3"></ion-col>
+      <ion-col size="3"></ion-col>
+      <ion-col size="3">${{iva}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="3">Precio a pagar</ion-col>
+      <ion-col size="3"></ion-col>
+      <ion-col size="3"></ion-col>
+      <ion-col size="3">$ {{subtotal + iva}}</ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

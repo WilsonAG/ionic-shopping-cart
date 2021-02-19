@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-searchbar
+      *ngIf="isSearching"
+      showCancelButton="focus"
+      placeholder="Buscar..."
+      (ionChange)="search($event)"
+      (ionCancel)="cancelSearch()"
+    ></ion-searchbar>
+
+    <ion-buttons *ngIf="!isSearching" slot="start">
+      <ion-button routerLink="/inicio">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons *ngIf="!isSearching" slot="start">
+      <ion-button (click)="isSearching = true">
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons *ngIf="!isSearching" slot="end">
+      <ion-button routerLink="/carrito">
+        <ion-icon name="cart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title *ngIf="!isSearching">Listado de productos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let prod of productos" detail (click)="showProduct(prod)">
+      <ion-thumbnail>
+        <img [src]="'assets/productos2/'+prod.IMG" />
+      </ion-thumbnail>
+      <ion-label> {{ prod.DESCRIPCION }} </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

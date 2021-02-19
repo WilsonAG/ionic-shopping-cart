@@ -1,0 +1,128 @@
+[
+  {
+    "CODIGO": "1001",
+    "DESCRIPCION": "TECLADO",
+    "MARCA": "GENIUS",
+    "STOCK": 10,
+    "PRECIO_UNIDAD": 10,
+    "PRECIO_DOCENA": 7.0,
+    "IMG": "teclado.jpeg"
+  },
+  {
+    "CODIGO": "1002",
+    "DESCRIPCION": "MOUSE",
+    "MARCA": "GENIUS",
+    "STOCK": 50,
+    "PRECIO_UNIDAD": 8,
+    "PRECIO_DOCENA": 5.6,
+    "IMG": "mouse.jpeg"
+  },
+  {
+    "CODIGO": "1003",
+    "DESCRIPCION": "MONITOR",
+    "MARCA": "LG",
+    "STOCK": 12,
+    "PRECIO_UNIDAD": 120,
+    "PRECIO_DOCENA": 84.0,
+    "IMG": "monitor.jpeg"
+  },
+  {
+    "CODIGO": "1004",
+    "DESCRIPCION": "LCD",
+    "MARCA": "LG",
+    "STOCK": 4,
+    "PRECIO_UNIDAD": 380,
+    "PRECIO_DOCENA": 266.0,
+    "IMG": "lcd.jpeg"
+  },
+  {
+    "CODIGO": "1005",
+    "DESCRIPCION": "LÁPIZ ÓTICO",
+    "MARCA": "GENIUS",
+    "STOCK": 14,
+    "PRECIO_UNIDAD": 25,
+    "PRECIO_DOCENA": 17.5,
+    "IMG": "lapiz.jpeg"
+  },
+  {
+    "CODIGO": "1006",
+    "DESCRIPCION": "VIRTUAL GLASSES",
+    "MARCA": "SHINECON",
+    "STOCK": 20,
+    "PRECIO_UNIDAD": 20,
+    "PRECIO_DOCENA": 14.0,
+    "IMG": "vr.jpeg"
+  },
+  {
+    "CODIGO": "1007",
+    "DESCRIPCION": "AP",
+    "MARCA": "TPLINK",
+    "STOCK": 15,
+    "PRECIO_UNIDAD": 28.99,
+    "PRECIO_DOCENA": 20.29,
+    "IMG": "ap.jpeg"
+  },
+  {
+    "CODIGO": "1008",
+    "DESCRIPCION": "IMPRESORA",
+    "MARCA": "EPSON",
+    "STOCK": 14,
+    "PRECIO_UNIDAD": 350.5,
+    "PRECIO_DOCENA": 245.35,
+    "IMG": "impresora.jpeg"
+  },
+  {
+    "CODIGO": "1009",
+    "DESCRIPCION": "SCANNER",
+    "MARCA": "EPSON",
+    "STOCK": 19,
+    "PRECIO_UNIDAD": 125,
+    "PRECIO_DOCENA": 87.5,
+    "IMG": "escaner.jpg"
+  },
+  {
+    "CODIGO": "1010",
+    "DESCRIPCION": "COPIADORA",
+    "MARCA": "XEROX",
+    "STOCK": 24,
+    "PRECIO_UNIDAD": 499.99,
+    "PRECIO_DOCENA": 349.99,
+    "IMG": "copiadora.jpeg"
+  },
+  {
+    "CODIGO": "1011",
+    "DESCRIPCION": "UPS",
+    "MARCA": "TPLINK",
+    "STOCK": 16,
+    "PRECIO_UNIDAD": 35,
+    "PRECIO_DOCENA": 24.5,
+    "IMG": "ups.jpg"
+  },
+  {
+    "CODIGO": "1012",
+    "DESCRIPCION": "TINTA LASER",
+    "MARCA": "EPSON",
+    "STOCK": 25,
+    "PRECIO_UNIDAD": 15,
+    "PRECIO_DOCENA": 10.5,
+    "IMG": "tinta-laser.jpeg"
+  },
+  {
+    "CODIGO": "1013",
+    "DESCRIPCION": "HARD DISK",
+    "MARCA": "TOSHIBA",
+    "STOCK": 55,
+    "PRECIO_UNIDAD": 120.99,
+    "PRECIO_DOCENA": 84.69,
+    "IMG": "hdd.jpeg"
+  },
+  {
+    "CODIGO": "1014",
+    "DESCRIPCION": "AUDIFONOS",
+    "MARCA": "GENIUS",
+    "STOCK": 26,
+    "PRECIO_UNIDAD": 29.99,
+    "PRECIO_DOCENA": 20.99,
+    "IMG": "audifonos.jpeg"
+  }
+]
